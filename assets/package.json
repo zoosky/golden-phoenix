@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "deploy": "NODE_ENV=production postcss css/app.css -o ../priv/static/assets/app.css"
+  },
   "dependencies": {
     "alpinejs": "^3.2.4"
   },
