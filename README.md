@@ -1,5 +1,17 @@
 # Golden
 
+Setup
+
+    mix do clean, deps.clean --all
+    mix deps.get
+    mix compile
+
+## Assets
+
+    cd assets/
+    npm install autoprefixer postcss postcss-import postcss-cli tailwindcss --save-dev
+    npm install alpinejs
+    
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
@@ -8,8 +20,4 @@ To start your Phoenix server:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-## Assets
 
-    cd assets/
-    npm install autoprefixer postcss postcss-import postcss-cli tailwindcss --save-dev
-    npm install alpinejs
