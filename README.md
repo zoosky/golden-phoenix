@@ -12,6 +12,7 @@ Setup
     npm install autoprefixer postcss postcss-import postcss-cli tailwindcss --save-dev
     npm install alpinejs
     npm install @tailwindcss/typography
+    npm install --save-dev tailwindcss-font-inter
 
 To start your Phoenix server:
 
@@ -26,3 +27,4 @@ Install authentication from [https://github.com/aaronrenner/phx_gen_auth](https:
     mix phx.gen.auth Accounts User users
 
 
+Add Inter font from [https://elixirforum.com/t/phoenix-1-6-0-liveview-esbuild-tailwind-jit-alpinejs-a-brief-tutorial/41669/6](https://elixirforum.com/t/phoenix-1-6-0-liveview-esbuild-tailwind-jit-alpinejs-a-brief-tutorial/41669/6)
