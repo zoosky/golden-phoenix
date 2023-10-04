@@ -3,7 +3,7 @@
     "deploy": "NODE_ENV=production postcss css/app.css -o ../priv/static/assets/app.css"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.4.1",
+    "@tailwindcss/typography": "^0.5.0",
     "alpinejs": "^3.3.1"
   },
   "devDependencies": {
